@@ -101,14 +101,8 @@ Nous vérifions si l'application expose des données lors des communications ou 
 2. **Obfusquer les secrets** et ne jamais stocker de clés API sensibles en clair dans les ressources XML.
 3. **Restreindre les composants** : mettre `android:exported="false"` par défaut.
 
-**![Capture 6 : Export du rapport final PDF](assets/capture_6_report.png)**
-```
+<img width="1413" height="890" alt="image" src="https://github.com/user-attachments/assets/51d94be6-7e49-4a91-a097-8d76450b5df1" />
 
-***
 
-### 🎓 Pour aller plus loin : Évaluer la criticité
-Dans un audit professionnel, identifier la faille ne suffit pas ; il faut évaluer son risque (Impact x Probabilité). Pour t'aider dans ton rapport, voici un outil interactif pour calculer la sévérité des failles que tu as trouvées avec MobSF.
 
-```json?chameleon
-{"component":"LlmGeneratedComponent","props":{"height":"600px","prompt":"Crée un simulateur de triage de vulnérabilités MobSF. L'objectif est d'aider l'étudiant à classer les failles trouvées. \n\nStructure : \n1. Une liste déroulante pour choisir la vulnérabilité détectée (ex: allowBackup=true, Hardcoded API Key, usesCleartextTraffic=true, Exported Activity).\n2. Des curseurs pour évaluer l'impact (0-10) et la facilité d'exploitation (0-10).\n3. Affichage dynamique d'un score de risque global (Impact * Facilité) avec une étiquette de sévérité (Faible, Moyen, Élevé, Critique).\n4. Affichage automatique de la recommandation de remédiation et de la règle OWASP MASVS correspondante pour chaque type de vulnérabilité.\n\nComportement : \n- Initialiser avec 'Hardcoded API Key' comme exemple.\n- Utiliser des calculs mathématiques pour la sévérité.\n- Ne pas utiliser de couleurs nommées spécifiques dans le prompt.\n- Langue : Français.","id":"im_0999bc79b93d5bfa"}}
-```
+
